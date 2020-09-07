@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Testing]">
+  <test thread-count="5" name="smoke Test cases(failed)">
+    <classes>
+      <class name="playingVideo.YoutubeWatchAndCloseVideo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="letsee"/>
+          <include name="afterTest1"/>
+        </methods>
+      </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
+    </classes>
+  </test> <!-- smoke Test cases(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

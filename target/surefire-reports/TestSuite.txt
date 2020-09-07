@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.231 sec <<< FAILURE! - in TestSuite
+letsee(playingVideo.YoutubeWatchAndCloseVideo)  Time elapsed: 43.72 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, databaseEnabled: false, desired: {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, deviceName: PIXELXL29, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: ac97bd54-c470-4dad-a457-b8787a86f551
+*** Element info: {Using=accessibility id, value=Oka Praanam | Acapella Version | Baahubali 2 | No Instruments Used - 2 minutes, 47 seconds - Go to channel - Yashraj Mukhate - 1.1M views - 5 months ago - play video}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at playingVideo.YoutubeWatchAndCloseVideo.letsee(YoutubeWatchAndCloseVideo.java:72)
+

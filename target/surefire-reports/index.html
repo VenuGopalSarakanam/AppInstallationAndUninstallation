@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Smoke_Testing">
+              <span class="suite-name border-failed">Smoke Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Smoke_Testing">
+                    <span>C:\FirstProject\youtubeAutomation\PlayVideo.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Smoke_Testing">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Smoke_Testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Smoke_Testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Smoke_Testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Smoke_Testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Smoke_Testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Smoke_Testing" class="hide-methods failed suite-Smoke_Testing"> (hide)</a> <!-- hide-methods failed suite-Smoke_Testing -->
+                      <a href="#" panel-name="suite-Smoke_Testing" class="show-methods failed suite-Smoke_Testing"> (show)</a> <!-- show-methods failed suite-Smoke_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Smoke_Testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Testing" title="playingVideo.YoutubeWatchAndCloseVideo" hash-for-method="letsee">letsee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Smoke_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_Testing" class="panel Smoke_Testing">
+          <div class="suite-Smoke_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">playingVideo.YoutubeWatchAndCloseVideo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="letsee">
+                  </a> <!-- letsee -->
+                  <span class="method-name">letsee</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-9NSMJCFA&apos;, ip: &apos;192.168.55.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, databaseEnabled: false, desired: {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, deviceName: PIXELXL29, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: ac97bd54-c470-4dad-a457-b8787a86f551
+*** Element info: {Using=accessibility id, value=Oka Praanam | Acapella Version | Baahubali 2 | No Instruments Used - 2 minutes, 47 seconds - Go to channel - Yashraj Mukhate - 1.1M views - 5 months ago - play video}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at playingVideo.YoutubeWatchAndCloseVideo.letsee(YoutubeWatchAndCloseVideo.java:72)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 25 stack frames<br/> org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-9NSMJCFA&apos;, ip: &apos;192.168.55.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, databaseEnabled: false, desired: {appActivity: com.google.android.youtube...., appPackage: com.google.android.youtube, deviceName: PIXELXL29, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: ac97bd54-c470-4dad-a457-b8787a86f551
+*** Element info: {Using=accessibility id, value=Oka Praanam | Acapella Version | Baahubali 2 | No Instruments Used - 2 minutes, 47 seconds - Go to channel - Yashraj Mukhate - 1.1M views - 5 months ago - play video}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at playingVideo.YoutubeWatchAndCloseVideo.letsee(YoutubeWatchAndCloseVideo.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br>io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br>io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br>io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br>io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)<br>io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br>io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br>io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)<br>playingVideo.YoutubeWatchAndCloseVideo.letsee(YoutubeWatchAndCloseVideo.java:72)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Testing-class-failed -->
+        </div> <!-- panel Smoke_Testing -->
+        <div panel-name="test-xml-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\FirstProject\youtubeAutomation\PlayVideo.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Smoke Testing&quot;&gt;
+  &lt;test name=&quot;smoke Test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;playingVideo.StartAndStopServer&quot;/&gt;
+      &lt;class name=&quot;playingVideo.Capabilities&quot;/&gt;
+      &lt;class name=&quot;playingVideo.YoutubeWatchAndCloseVideo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke Test cases --&gt;
+&lt;/suite&gt; &lt;!-- Smoke Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">smoke Test cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_Testing');
+function tableData_Smoke_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'letsee')
+data.setCell(0, 2, 'playingVideo.YoutubeWatchAndCloseVideo')
+data.setCell(0, 3, 43714);
+window.suiteTableData['Smoke_Testing']= { tableData: data, tableDiv: 'times-div-Smoke_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-Smoke_Testing">
+              </div> <!-- times-div-Smoke_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">playingVideo.StartAndStopServer</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startServer</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">playingVideo.YoutubeWatchAndCloseVideo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">letsee</span>
+                <span class="method-start">10047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest1</span>
+                <span class="method-start">53768 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">playingVideo.StartAndStopServer</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopServer</span>
+                <span class="method-start">53791 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

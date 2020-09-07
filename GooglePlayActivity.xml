@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Login To Google PlayStore">
+    <test name="Login Test Case">
+        <classes>
+          <class name="playingVideo.StartAndStopServer"></class>
+        <class name="playingVideo.GooglePlayCapability"></class>
+        <class name="playingVideo.InstallAMDLink"></class>
+        <class name="playingVideo.StartAndStopServer"></class>
+            <class name="playingVideo.PixelHomeCapabilities"></class>
+            <class name="playingVideo.UninstallAMDLink"></class>
+        
+        
+        </classes>
+    </test>
+    
+</suite>

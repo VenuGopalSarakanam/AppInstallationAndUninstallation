@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Smoke Testing]">
+  <test name="smoke Test cases(failed)">
+    <classes>
+      <class name="playingVideo.YoutubeWatchAndCloseVideo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="letsee"/>
+          <include name="afterTest1"/>
+        </methods>
+      </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
+      <class name="playingVideo.StartAndStopServer">
+        <methods>
+          <include name="startServer"/>
+          <include name="stopServer"/>
+        </methods>
+      </class> <!-- playingVideo.StartAndStopServer -->
+    </classes>
+  </test> <!-- smoke Test cases(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

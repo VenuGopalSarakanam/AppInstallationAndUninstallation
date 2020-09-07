@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Uninstall AMD Link from HOME]">
+  <test thread-count="5" name="Uninstall AMD Link Test(failed)">
+    <classes>
+      <class name="playingVideo.UninstallAMDLink">
+        <methods>
+          <include name="Uninstall"/>
+          <include name="PixelHomeCapabilities"/>
+        </methods>
+      </class> <!-- playingVideo.UninstallAMDLink -->
+    </classes>
+  </test> <!-- Uninstall AMD Link Test(failed) -->
+</suite> <!-- Failed suite [Uninstall AMD Link from HOME] -->

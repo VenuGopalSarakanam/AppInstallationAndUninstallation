@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Uninstall AMD Link from HOME">
+    <test name="Uninstall AMD Link Test">
+        <classes>
+            <class name="playingVideo.StartAndStopServer"></class>
+            <class name="playingVideo.PixelHomeCapabilities"></class>
+            <class name="playingVideo.UninstallAMDLink"></class>
+        </classes>
+    </test>
+</suite>
