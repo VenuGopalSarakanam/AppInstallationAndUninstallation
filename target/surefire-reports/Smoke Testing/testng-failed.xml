@@ -3,6 +3,18 @@
 <suite verbose="0" name="Failed suite [Smoke Testing]">
   <test name="smoke Test cases(failed)">
     <classes>
+      <class name="playingVideo.StartAndStopServer">
+        <methods>
+          <include name="startServer"/>
+          <include name="stopServer"/>
+        </methods>
+      </class> <!-- playingVideo.StartAndStopServer -->
+      <class name="playingVideo.EmulatorAutoLaunch">
+        <methods>
+          <include name="stopServer"/>
+          <include name="startEmulator"/>
+        </methods>
+      </class> <!-- playingVideo.EmulatorAutoLaunch -->
       <class name="playingVideo.YoutubeWatchAndCloseVideo">
         <methods>
           <include name="beforeMethod"/>
@@ -10,12 +22,6 @@
           <include name="afterTest1"/>
         </methods>
       </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
-      <class name="playingVideo.StartAndStopServer">
-        <methods>
-          <include name="startServer"/>
-          <include name="stopServer"/>
-        </methods>
-      </class> <!-- playingVideo.StartAndStopServer -->
     </classes>
   </test> <!-- smoke Test cases(failed) -->
 </suite> <!-- Failed suite [Smoke Testing] -->

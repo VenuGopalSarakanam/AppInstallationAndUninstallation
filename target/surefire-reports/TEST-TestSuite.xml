@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="70.937" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="9.644" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="YoutubeVideoPlayingAndClosing"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/14/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/17/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -29,10 +29,10 @@
     <property name="OnlineServices" value="Online Services"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="YoutubeVideoPlayingAndClosing"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/14/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/17/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#17"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="fd1d7bd04977e108bf126d5a80dd4ed90bfad4c0"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="78e0c4b2b784ab68fb2ab85c684435c89d730722"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_261"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
@@ -41,7 +41,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="14"/>
+    <property name="BUILD_ID" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,14 +56,14 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="platformcode" value="KV"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/14/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/17/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/14/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/17/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.261-b12"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="fd1d7bd04977e108bf126d5a80dd4ed90bfad4c0"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="78e0c4b2b784ab68fb2ab85c684435c89d730722"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -80,7 +80,7 @@
     <property name="POM_GROUPID" value="playingVideo"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-YoutubeVideoPlayingAndClosing-14"/>
+    <property name="BUILD_TAG" value="jenkins-YoutubeVideoPlayingAndClosing-17"/>
     <property name="JENKINS_SERVER_COOKIE" value="63bf51f71e568802"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -94,7 +94,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkinswar\WEB-INF\lib\remoting-4.5.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59615"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkinswar\WEB-INF\lib\remoting-4.5.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62413"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_261/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\System32\Wbem;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Android\sdk\tools;C:\Android\sdk\tools\bin;C:\Android\sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -110,7 +110,7 @@
     <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins"/>
     <property name="PATH+MAVEN" value="C:\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/14/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/YoutubeVideoPlayingAndClosing/17/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -122,7 +122,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="14"/>
+    <property name="BUILD_NUMBER" value="17"/>
     <property name="BASE" value="C:\Jenkins"/>
     <property name="ANDROID_HOME" value="C:\Android\sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -130,7 +130,7 @@
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="fd1d7bd04977e108bf126d5a80dd4ed90bfad4c0"/>
+    <property name="GIT_COMMIT" value="78e0c4b2b784ab68fb2ab85c684435c89d730722"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
@@ -144,5 +144,74 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="GIT_URL" value="https://github.com/VenuGopalSarakanam/YoutubeAutomation.git"/>
   </properties>
-  <testcase name="letsee" classname="playingVideo.YoutubeWatchAndCloseVideo" time="70.937"/>
+  <testcase name="letsee" classname="playingVideo.YoutubeWatchAndCloseVideo" time="9.644">
+    <failure message="Unable to create a new remote session. Original error: Connection reset&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-9NSMJCFA&apos;, ip: &apos;192.168.55.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: AndroidDriver
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at playingVideo.Capabilities.Capabilities(Capabilities.java:27)
+	at playingVideo.YoutubeWatchAndCloseVideo.letsee(YoutubeWatchAndCloseVideo.java:62)
+]]></failure>
+    <system-out><![CDATA[emulator: ERROR: Unknown AVD name [PIXELXL29], use -list-avds to see valid list.
+HOME is defined but there is no file PIXELXL29.ini in $HOME\.android\avd
+(Note: Directories are searched in the order $ANDROID_AVD_HOME, $ANDROID_SDK_HOME\avd and $HOME\.android\avd)
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.18.0
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
+This is a Before Method.Executes before every test
+]]></system-out>
+    <system-err><![CDATA[&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at doListen (net.js:1498:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+]]></system-err>
+  </testcase>
 </testsuite>

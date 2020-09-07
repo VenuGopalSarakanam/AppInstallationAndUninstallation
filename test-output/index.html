@@ -146,6 +146,7 @@
 &lt;suite name=&quot;Smoke Testing&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;smoke Test cases&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;playingVideo.EmulatorAutoLaunch&quot;/&gt;
       &lt;class name=&quot;playingVideo.StartAndStopServer&quot;/&gt;
       &lt;class name=&quot;playingVideo.Capabilities&quot;/&gt;
       &lt;class name=&quot;playingVideo.YoutubeWatchAndCloseVideo&quot;/&gt;
@@ -162,7 +163,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">smoke Test cases (3 classes)</span>
+                <span class="test-name">smoke Test cases (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,7 +193,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'letsee')
 data.setCell(0, 2, 'playingVideo.YoutubeWatchAndCloseVideo')
-data.setCell(0, 3, 65221);
+data.setCell(0, 3, 68107);
 window.suiteTableData['Smoke_Testing']= { tableData: data, tableDiv: 'times-div-Smoke_Testing'}
 return data;
 }
@@ -223,32 +224,46 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">playingVideo.EmulatorAutoLaunch</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startEmulator</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">playingVideo.StartAndStopServer</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">startServer</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">120019 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">playingVideo.YoutubeWatchAndCloseVideo</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">10061 ms</span>
+                <span class="method-start">130082 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">letsee</span>
-                <span class="method-start">10063 ms</span>
+                <span class="method-start">130084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest1</span>
-                <span class="method-start">75293 ms</span>
+                <span class="method-start">198199 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">playingVideo.EmulatorAutoLaunch</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopServer</span>
+                <span class="method-start">198234 ms</span>
+              </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">playingVideo.StartAndStopServer</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">stopServer</span>
-                <span class="method-start">75323 ms</span>
+                <span class="method-start">198238 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

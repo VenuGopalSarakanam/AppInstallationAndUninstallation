@@ -2,6 +2,7 @@
 <suite name='Smoke Testing'>
     <test name='smoke Test cases'>
     <classes>
+        <class name="playingVideo.EmulatorAutoLaunch"></class>
         <class name="playingVideo.StartAndStopServer"></class>
         <class name="playingVideo.Capabilities"></class>
         <class name="playingVideo.YoutubeWatchAndCloseVideo"></class>

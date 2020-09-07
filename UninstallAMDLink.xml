@@ -3,6 +3,7 @@
 <suite name="Uninstall AMD Link from HOME">
     <test name="Uninstall AMD Link Test">
         <classes>
+            <class name="playingVideo.EmulatorAutoLaunch"></class>
             <class name="playingVideo.StartAndStopServer"></class>
             <class name="playingVideo.PixelHomeCapabilities"></class>
             <class name="playingVideo.UninstallAMDLink"></class>

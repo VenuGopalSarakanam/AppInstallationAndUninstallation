@@ -2,30 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Testing" duration-ms="65275" started-at="2020-09-07T20:21:03 IST" finished-at="2020-09-07T20:22:08 IST">
+  <suite name="Smoke Testing" duration-ms="68174" started-at="2020-09-07T23:55:25 IST" finished-at="2020-09-07T23:56:33 IST">
     <groups>
     </groups>
-    <test name="smoke Test cases" duration-ms="65275" started-at="2020-09-07T20:21:03 IST" finished-at="2020-09-07T20:22:08 IST">
+    <test name="smoke Test cases" duration-ms="68174" started-at="2020-09-07T23:55:25 IST" finished-at="2020-09-07T23:56:33 IST">
       <class name="playingVideo.YoutubeWatchAndCloseVideo">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@1060b431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-07T20:21:03 IST" finished-at="2020-09-07T20:21:03 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@11758f2a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-07T23:55:25 IST" finished-at="2020-09-07T23:55:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="letsee()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@1060b431]" name="letsee" duration-ms="65221" started-at="2020-09-07T20:21:03 IST" finished-at="2020-09-07T20:22:08 IST">
+        <test-method status="PASS" signature="letsee()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@11758f2a]" name="letsee" duration-ms="68107" started-at="2020-09-07T23:55:25 IST" finished-at="2020-09-07T23:56:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- letsee -->
-        <test-method status="PASS" signature="afterTest1()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@1060b431]" name="afterTest1" is-config="true" duration-ms="0" started-at="2020-09-07T20:22:08 IST" finished-at="2020-09-07T20:22:08 IST">
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@11758f2a]" name="afterTest1" is-config="true" duration-ms="0" started-at="2020-09-07T23:56:33 IST" finished-at="2020-09-07T23:56:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest1 -->
       </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
+      <class name="playingVideo.EmulatorAutoLaunch">
+        <test-method status="PASS" signature="startEmulator()[pri:0, instance:playingVideo.EmulatorAutoLaunch@1060b431]" name="startEmulator" is-config="true" duration-ms="120018" started-at="2020-09-07T23:53:15 IST" finished-at="2020-09-07T23:55:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEmulator -->
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.EmulatorAutoLaunch@1060b431]" name="stopServer" is-config="true" duration-ms="3" started-at="2020-09-07T23:56:33 IST" finished-at="2020-09-07T23:56:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- playingVideo.EmulatorAutoLaunch -->
       <class name="playingVideo.StartAndStopServer">
-        <test-method status="PASS" signature="startServer()[pri:0, instance:playingVideo.StartAndStopServer@612fc6eb]" name="startServer" is-config="true" duration-ms="10017" started-at="2020-09-07T20:20:53 IST" finished-at="2020-09-07T20:21:03 IST">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:playingVideo.StartAndStopServer@612679d6]" name="startServer" is-config="true" duration-ms="10004" started-at="2020-09-07T23:55:15 IST" finished-at="2020-09-07T23:55:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.StartAndStopServer@612fc6eb]" name="stopServer" is-config="true" duration-ms="6" started-at="2020-09-07T20:22:08 IST" finished-at="2020-09-07T20:22:08 IST">
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.StartAndStopServer@612679d6]" name="stopServer" is-config="true" duration-ms="2" started-at="2020-09-07T23:56:33 IST" finished-at="2020-09-07T23:56:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->
