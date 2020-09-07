@@ -74,10 +74,7 @@ public class YoutubeWatchAndCloseVideo extends Capabilities {
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		Thread.sleep(30000);
 		Dimension size = driver.manage().window().getSize();
-		int start_x= (int)(size.getHeight());
-		int start_y = (int)(size.getHeight());
-		System.out.println("X-Axis Intial Value: "+ start_x);
-		System.out.println("Y-Axis Intial Value: "+ start_y);
+
 		
 		int startx = (int)(size.getHeight()*0.30);
 		int starty = (int)(size.getWidth()*0.50);
@@ -98,7 +95,7 @@ public class YoutubeWatchAndCloseVideo extends Capabilities {
 		.release()
 		.perform();
 		System.out.println("Swipe Completed");
-
+		driver.pressKey(new KeyEvent(AndroidKey.HOME));
 
 	}
 }
