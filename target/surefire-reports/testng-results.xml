@@ -2,25 +2,37 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Testing" duration-ms="9666" started-at="2020-09-07T18:05:36Z" finished-at="2020-09-07T18:05:45Z">
+  <suite name="Smoke Testing" duration-ms="37308" started-at="2020-09-08T06:32:33Z" finished-at="2020-09-08T06:33:10Z">
     <groups>
     </groups>
-    <test name="smoke Test cases" duration-ms="9666" started-at="2020-09-07T18:05:36Z" finished-at="2020-09-07T18:05:45Z">
+    <test name="smoke Test cases" duration-ms="37308" started-at="2020-09-08T06:32:33Z" finished-at="2020-09-08T06:33:10Z">
       <class name="playingVideo.YoutubeWatchAndCloseVideo">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-07T23:35:36Z" finished-at="2020-09-07T23:35:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-08T12:02:33Z" finished-at="2020-09-08T12:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="letsee()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="letsee" duration-ms="9579" started-at="2020-09-07T23:35:36Z" finished-at="2020-09-07T23:35:45Z">
+        <test-method status="FAIL" signature="letsee()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="letsee" duration-ms="37268" started-at="2020-09-08T12:02:33Z" finished-at="2020-09-08T12:03:10Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Unable to create a new remote session. Original error: Connection reset
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:381:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: AndroidDriver
@@ -74,35 +86,30 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
 	... 42 more
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:210)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:140)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9NSMJCFA', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20052ms.
+    at getResponseForW3CError (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:381:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
 	... 47 more
 ]]>
             </full-stacktrace>
@@ -110,25 +117,25 @@ Caused by: java.net.SocketException: Connection reset
           <reporter-output>
           </reporter-output>
         </test-method> <!-- letsee -->
-        <test-method status="PASS" signature="afterTest1()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="afterTest1" is-config="true" duration-ms="0" started-at="2020-09-07T23:35:45Z" finished-at="2020-09-07T23:35:45Z">
+        <test-method status="PASS" signature="afterTest1()[pri:0, instance:playingVideo.YoutubeWatchAndCloseVideo@12843fce]" name="afterTest1" is-config="true" duration-ms="1" started-at="2020-09-08T12:03:10Z" finished-at="2020-09-08T12:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest1 -->
       </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
       <class name="playingVideo.EmulatorAutoLaunch">
-        <test-method status="PASS" signature="startEmulator()[pri:0, instance:playingVideo.EmulatorAutoLaunch@737996a0]" name="startEmulator" is-config="true" duration-ms="300024" started-at="2020-09-07T23:30:26Z" finished-at="2020-09-07T23:35:26Z">
+        <test-method status="PASS" signature="startEmulator()[pri:0, instance:playingVideo.EmulatorAutoLaunch@737996a0]" name="startEmulator" is-config="true" duration-ms="120018" started-at="2020-09-08T12:00:23Z" finished-at="2020-09-08T12:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startEmulator -->
-        <test-method status="PASS" signature="startServer()[pri:0, instance:playingVideo.StartAndStopServer@234bef66]" name="startServer" is-config="true" duration-ms="10000" started-at="2020-09-07T23:35:26Z" finished-at="2020-09-07T23:35:36Z">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:playingVideo.StartAndStopServer@234bef66]" name="startServer" is-config="true" duration-ms="10004" started-at="2020-09-08T12:02:23Z" finished-at="2020-09-08T12:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.EmulatorAutoLaunch@737996a0]" name="stopServer" is-config="true" duration-ms="13" started-at="2020-09-07T23:35:45Z" finished-at="2020-09-07T23:35:45Z">
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.EmulatorAutoLaunch@737996a0]" name="stopServer" is-config="true" duration-ms="14" started-at="2020-09-08T12:03:10Z" finished-at="2020-09-08T12:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->
-        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.StartAndStopServer@234bef66]" name="stopServer" is-config="true" duration-ms="2" started-at="2020-09-07T23:35:45Z" finished-at="2020-09-07T23:35:45Z">
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:playingVideo.StartAndStopServer@234bef66]" name="stopServer" is-config="true" duration-ms="2" started-at="2020-09-08T12:03:10Z" finished-at="2020-09-08T12:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Smoke Testing]">
-  <test thread-count="5" name="smoke Test cases(failed)">
+<suite name="Failed suite [Login To Google PlayStore]">
+  <test thread-count="5" name="Login Test Case(failed)">
     <classes>
-      <class name="playingVideo.YoutubeWatchAndCloseVideo">
+      <class name="playingVideo.UninstallAMDLink">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="letsee"/>
-          <include name="afterTest1"/>
+          <include name="Uninstall"/>
+          <include name="PixelHomeCapabilities"/>
         </methods>
-      </class> <!-- playingVideo.YoutubeWatchAndCloseVideo -->
+      </class> <!-- playingVideo.UninstallAMDLink -->
+      <class name="playingVideo.InstallAMDLink">
+        <methods>
+          <include name="DownloadAndUninstallAMDLink"/>
+        </methods>
+      </class> <!-- playingVideo.InstallAMDLink -->
     </classes>
-  </test> <!-- smoke Test cases(failed) -->
-</suite> <!-- Failed suite [Smoke Testing] -->
+  </test> <!-- Login Test Case(failed) -->
+</suite> <!-- Failed suite [Login To Google PlayStore] -->

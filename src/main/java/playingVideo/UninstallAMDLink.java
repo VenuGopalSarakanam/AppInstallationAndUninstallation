@@ -29,36 +29,39 @@ public class UninstallAMDLink extends PixelHomeCapabilities{
 	@Test
 	public void Uninstall() throws MalformedURLException, InterruptedException {
 	AndroidDriver<AndroidElement> driver = PixelHomeCapabilities();
-	
+	Thread.sleep(2000);
+	driver.removeApp("com.amd.link");
+	System.out.println("removed command executes");
 //	Dimension size = driver.manage().window().getSize();
 //	int start_x= (int)(size.getHeight()/7);
 //	int width = (int)(size.getWidth()/7);
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	driver.findElementByAccessibilityId("Apps list").click();
-	new TouchAction(driver).press(PointOption.point(690, 1704))
-	.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
-	.moveTo(PointOption.point(690, 325))
-	.release()
-	.perform();
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	System.out.println(driver.findElementByAccessibilityId("AMD Link").isDisplayed());
-	driver.findElementByClassName("android.view.View").click();
-	TouchAction t = new TouchAction(driver);
-
-	WebElement first = driver.findElementByAccessibilityId("AMD Link");
-	new TouchAction(driver)
-	.longPress(longPressOptions()
-	.withElement(element(first))
-	.withDuration(Duration.ofMillis(10000)))
-	.release().perform();
-    Thread.sleep(5000);
+//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//	driver.findElementByAccessibilityId("Apps list").click();
+//	new TouchAction(driver).press(PointOption.point(690, 1704))
+//	.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
+//	.moveTo(PointOption.point(690, 325))
+//	.release()
+//	.perform();
+//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//	System.out.println(driver.findElementByAccessibilityId("AMD Link").isDisplayed());
 	
-	//Act.longPress(longPressOptions)
-	System.out.println("LongPressExucted");
-
-	driver.findElementByXPath("//android.widget.TextView[0]").click();
-	driver.findElementByXPath("//android.widget.Button[@text='Uninstall']").click();
-	driver.findElementByXPath("//android.widget.Button[@text='OK']").click();
+//	driver.findElementByClassName("android.view.View").click();
+//	TouchAction t = new TouchAction(driver);
+//
+//	WebElement first = driver.findElementByAccessibilityId("AMD Link");
+//	new TouchAction(driver)
+//	.longPress(longPressOptions()
+//	.withElement(element(first))
+//	.withDuration(Duration.ofMillis(10000)))
+//	.release().perform();
+//    Thread.sleep(5000);
+//	
+//	//Act.longPress(longPressOptions)
+//	System.out.println("LongPressExucted");
+//
+//	driver.findElementByXPath("//android.widget.TextView[0]").click();
+//	driver.findElementByXPath("//android.widget.Button[@text='Uninstall']").click();
+//	driver.findElementByXPath("//android.widget.Button[@text='OK']").click();
 
 }}
 

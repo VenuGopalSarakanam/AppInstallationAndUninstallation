@@ -8,9 +8,7 @@
         <class name="playingVideo.InstallAMDLink"></class>
         <class name="playingVideo.StartAndStopServer"></class>
             <class name="playingVideo.PixelHomeCapabilities"></class>
-            <class name="playingVideo.UninstallAMDLink"></class>
-        
-        
+            <class name="playingVideo.UninstallAMDLink"></class>  
         </classes>
     </test>
     
